@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/xinwen/xinwen"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#515151",
+    "selectedColor":"#ff5777",
+    "list":[
+      {
+        "pagePath":"pages/home/home",
+        "text":"首页",
+        "iconPath":"image/tabbar/icon_home2.png",
+        "selectedIconPath":"image/tabbar/icon_home.png"
+      },
+      {
+        "pagePath":"pages/about/about",
+        "text":"产品中心",
+        "iconPath":"image/tabbar/leimupinleifenleileibie-1.png",
+        "selectedIconPath":"image/tabbar/leimupinleifenleileibie.png"
+      },
+      {
+        "pagePath":"pages/profile/profile",
+        "text":"我的",
+        "iconPath":"image/tabbar/profileo2.png",
+        "selectedIconPath":"image/tabbar/profileo.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

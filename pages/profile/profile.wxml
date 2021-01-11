@@ -1,0 +1,7 @@
+<!--pages/profile/profile.wxml-->
+
+<view wx:for="{{list}}" wx:key="index">
+  <view bindtap="goxinwen" data-id="{{item._id}}">
+    <view>{{item.title}}</view>
+  </view>
+</view>

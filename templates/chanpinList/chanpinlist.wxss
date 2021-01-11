@@ -1,0 +1,56 @@
+/* 产品列表展示 */
+.list{
+  width: 87%;
+  height: auto;
+  background: #fff;
+  padding: 20rpx;
+  margin: 20rpx;
+  border: 2rpx solid rgb(236, 53, 8);
+  display:block;
+}
+.list-title{
+  display: inline;
+}
+.list-every{
+  display: flex;
+}
+.list-img{
+  width: 184rpx;
+  height: auto;
+}
+.list-img image{
+  width: 184rpx;
+  height: 90%;
+}
+.list-main{
+  width: 100%;
+  height: auto;
+}
+.list-info{
+padding-left: 20rpx;
+position: relative;
+flex: 1;
+}
+.info-title{
+  color: #333;
+  font-size: 24rpx;
+  margin-bottom: 14rpx;
+  margin-left: 8rpx;
+}
+.info{
+  font-size: 24rpx;
+  color: #666;
+}
+.info-bottom{
+  margin-left: 150rpx;
+  font-size:24rpx;
+  display: flex;
+}
+.price{
+  color: red;
+  margin-right: 50rpx;
+}
+.buynum{
+  margin-left: 40rpx;
+  color: red;
+}

@@ -1,0 +1,24 @@
+<template name="chanpinlist">
+  <view class="list">
+    <view class="list-title">{{item.title}}</view>
+      <view class="list-every">
+        <view class="list-img">
+          <image src="{{item.imgURL}}"></image>
+        </view>
+
+        <view class="list-main">
+          <view class="list-info">
+            <view class="info-title">{{item.infotitle}}</view>
+            <view class="info-title">{{item.infotitles}}</view>
+            <view class="info">{{item.infoone}}</view>
+            <view class="info">{{item.infotwo}}</view>
+            <view class="info">{{item.infothree}}</view>
+          </view>
+          <view class="info-bottom">
+            <view class="price">￥{{item.price}}</view>
+           <view class="buynum">{{item.buynum}}人付款</view>
+          </view>
+        </view>
+    </view>
+  </view>
+</template>
