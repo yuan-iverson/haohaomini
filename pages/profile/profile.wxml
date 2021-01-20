@@ -1,7 +1,12 @@
-<!--pages/profile/profile.wxml-->
-
-<view wx:for="{{list}}" wx:key="index">
+pages/profile/profile.wxml
+// 跳转到新闻页
+<!-- <view wx:for="{{list}}" wx:key="index">
   <view bindtap="goxinwen" data-id="{{item._id}}">
-    <view>{{item.title}}</view>
+        <view>{{item.title}}</view>
   </view>
+</view> -->
+
+<view class="content">
+  <view>进入页面直接获取</view>
+  <view class="userinfo"></view>
 </view>

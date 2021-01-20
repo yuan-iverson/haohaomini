@@ -53,52 +53,16 @@
   <view class="h2_title">新闻中心</view>
    <span class="en">NEWS</span>
 </view>
+<!-- 新闻列表 -->
 <view class="local_all">
   <view class="local_content">
-    <view class="libiao">
-        <span class="size_12">泰</span>
-          <p class="size_18">泰康之家十年磨一剑，拥抱长寿经济，服务百岁人生</p>
-          <p class="size_18">2020-11-30</p>
-    </view>
-    <view class="libiao">
-   
-        <span class="size_12">康</span>
-          <p class="size_18">看，时隔4个多月，那幅壁画又出现了</p>
-          <p class="size_18">2020-11-12</p>
-      
-    </view>
-    <view class="libiao">
-      
-        <span class="size_12">人</span>
-          <p class="size_18">泰康溢彩资助养老机构百家，用公益应对长寿时代挑战</p>
-          <p class="size_18">2020-11-11</p>
-      
-    </view>
-    <view class="libiao">
-      
-        <span class="size_12">寿</span>
-          <p class="size_18">第三届中国医养保险高峰论坛成功召开</p>
-          <p class="size_18">2020-09-24</p>
-      
-    </view>
-    <view class="anniu"><button plain="true"><text>查看更多</text></button></view>
-  </view>
-</view>
-
-<!-- 新闻列表 -->
-
-<view class="list">
-  <view class="item" wx:for="{{xinwenlist}}" wx:key="index">
-    <navigator url="../xinwen/xinwen?itemId=123">
-      <view class="title">{{item.title}}</view>
-      <view class="item-wrapper">
-        <view class="img">
-          <image src="{{item.image}}"></image>
-        </view>
-        <view class="info">{{item.info}}</view>
+    <view class="libiao" wx:for="{{list}}" wx:key="index">
+      <view bindtap="goxinwen" data-id="{{item._id}}">
+        <span class="size_12">{{item.wenzi}}</span>
+          <p class="size_18">{{item.title}}</p>
+          <p class="size_18">{{item.time}}</p>
       </view>
-
-    </navigator>
+    </view>
   </view>
-
 </view>
+

@@ -63,13 +63,11 @@
 </view>
 <!-- 产品列表 -->
 <import src='../../templates/chanpinList/chanpinlist.wxml' />
-<template is='chanpinlist'></template>
-<view wx:for="{{datalist}}" wx:key='index'>
+<view wx:for="{{list}}" wx:key='index'>
 	<template is='chanpinlist' data="{{item}}"></template>
 </view>
-<!-- 点击加载更多
-<button bindtap="getMore" wx:if="{{isShow}}">点击加载更多</button> -->
-<button bindtap="getData">通过云函数获取数据</button>
+
+
 
 
 

@@ -1,6 +1,5 @@
-/* pages/profile/profile.wxss */
+/* pages/my/my.wxss */
 .content{
   font-size: 30rpx;
   background: #ffffff;
-  padding: 20rpx;
 }

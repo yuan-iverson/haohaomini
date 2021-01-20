@@ -1,1 +1,13 @@
 /* pages/xinwen/xinwen.wxss */
+.title{
+  text-align: center;
+  font-size:60rpx;
+  line-height: 200rpx;
+}
+.info{
+  margin: 20rpx;
+  font-size: 30rpx;
+  text-indent: 60rpx;
+  letter-spacing: 6rpx;
+}
+

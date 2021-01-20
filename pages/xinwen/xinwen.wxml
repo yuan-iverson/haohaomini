@@ -1,10 +1,12 @@
 <!--pages/xinwen/xinwen.wxml-->
 <view>
-    <view>{{xinwen.title}}</view>
-    <image src="{{xinwen.img}}"></image>
-    <view>{{xinwen.infoone}}</view>
-    <view>{{xinwen.infotwo}}</view>
-    <view>{{xinwen.infothree}}</view>
+    <view class="title">{{xinwen.title}}</view>
+    <image style="width:700rpx; height:400rpx; margin:20rpx;" src="{{xinwen.img}}"></image>
+    
+        <view class="info">{{xinwen.infoone}}</view>
+        <view class="info">{{xinwen.infotwo}}</view>
+        <view class="info">{{xinwen.infothree}}</view>
+    
 </view>
 
 

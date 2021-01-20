@@ -1,0 +1,18 @@
+<!--pages/my/my.wxml-->
+<text>pages/my/my.wxml</text>
+<view class="content">
+  <view>1、直接获取用户信息</view>
+  <view class="userinfo">
+    <open-data type="userAvatarUrl"></open-data>
+    <open-data type="userNickName"></open-data>
+    <open-data type="userCity"></open-data>
+  </view>
+  <view>***************************</view>
+  <view>点击获取用户信息</view>
+  <button wx:if="{{isShow}}" open-type="getUserInfo" bindgetuserinfo="getuserinfo">点击授权</button>
+    <view class="userinfo" wx:else>
+      <view>{{nickName}}</view>
+      <image src="{{avatarUrl}}"></image>
+      <button bindtap="getopenid">获取用户openid</button>
+    </view>
+</view>

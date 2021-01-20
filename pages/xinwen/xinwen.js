@@ -18,5 +18,5 @@ Page({
       console.log("详情页失败",res)
     })
   }
-
+  
 })

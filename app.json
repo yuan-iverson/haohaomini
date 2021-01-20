@@ -1,10 +1,11 @@
 {
   "pages":[
     "pages/home/home",
-    "pages/logs/logs",
     "pages/about/about",
     "pages/profile/profile",
-    "pages/xinwen/xinwen"
+    "pages/xinwen/xinwen",
+    "pages/my/my"
+
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -29,7 +30,7 @@
         "selectedIconPath":"image/tabbar/leimupinleifenleileibie.png"
       },
       {
-        "pagePath":"pages/profile/profile",
+        "pagePath":"pages/my/my",
         "text":"我的",
         "iconPath":"image/tabbar/profileo2.png",
         "selectedIconPath":"image/tabbar/profileo.png"
